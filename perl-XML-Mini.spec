@@ -14,7 +14,7 @@ License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl-devel >= 5.6
-BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpm-perlprov >= 4.0.2-104
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -32,8 +32,7 @@ elementów. API MiniXML ma implementacje w Perlu i PHP.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL \
-	INSTALLDIRS=vendor
+%{__perl} Makefile.PL
 %{__make}
 
 %{!?_without_tests:%{__make} test}
@@ -49,6 +48,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{perl_vendorlib}/%{pdir}/*.pm
-%{perl_vendorlib}/%{pdir}/%{pnam}
+%doc Changes 
+%{perl_sitelib}/%{pdir}/*.pm
+%{perl_sitelib}/%{pdir}/%{pnam}
 %{_mandir}/man3/*
