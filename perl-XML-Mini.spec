@@ -26,7 +26,7 @@ The MiniXML API has both Perl and PHP implementations.
 
 %description -l pl
 XML::Mini to zbiór klas Perla pozwalaj±cych na dostêp do danych XML
-oraz tworzenie poprawnego wyj¶cia w XML z drzewiast± hierarchi±
+oraz tworzenie poprawnego wyj¶cia w XML-u z drzewiast± hierarchi±
 elementów. API MiniXML ma implementacje w Perlu i PHP.
 
 %prep
