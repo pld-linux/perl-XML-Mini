@@ -9,7 +9,7 @@ Summary:	XML::Mini - Perl implementation of the XML::Mini XML create/parse inter
 Summary(pl):	XML::Mini - perlowa implementacja interfejsu tworz±cego/analizuj±cego XML
 Name:		perl-XML-Mini
 Version:	1.2.7
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -49,6 +49,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc Changes
 %{perl_vendorlib}/%{pdir}/*.pm
 %{perl_vendorlib}/%{pdir}/%{pnam}
 %{_mandir}/man3/*
