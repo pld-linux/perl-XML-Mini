@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	Mini
+%define		pdir	XML
+%define		pnam	Mini
 Summary:	XML::Mini - Perl implementation of the XML::Mini XML create/parse interface
 Summary(pl):	XML::Mini - implementacja perlowa interfejsu tworz±cego/analizuj±cego XML
 Name:		perl-XML-Mini
