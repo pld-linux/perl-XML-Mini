@@ -6,7 +6,7 @@
 %define	pdir	XML
 %define	pnam	Mini
 Summary:	XML::Mini - Perl implementation of the XML::Mini XML create/parse interface
-Summary(pl):	XML::Mini - perlowa implementacja interfejsu tworz±cego/analizuj±cego XML
+Summary(pl):	XML::Mini - implementacja perlowa interfejsu tworz±cego/analizuj±cego XML
 Name:		perl-XML-Mini
 Version:	1.2.8
 Release:	2
