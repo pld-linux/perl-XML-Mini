@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Mini
 Summary:	XML::Mini - Perl implementation of the XML::Mini XML create/parse interface
-Summary(pl):	XML::Mini - implementacja perlowa interfejsu tworz±cego/analizuj±cego XML
+Summary(pl.UTF-8):   XML::Mini - implementacja perlowa interfejsu tworzÄ…cego/analizujÄ…cego XML
 Name:		perl-XML-Mini
 Version:	1.2.8
 Release:	2
@@ -24,10 +24,10 @@ XML::Mini is a set of Perl classes that allow you to access XML data
 and create valid XML output with a tree-based hierarchy of elements.
 The MiniXML API has both Perl and PHP implementations.
 
-%description -l pl
-XML::Mini to zbiór klas Perla pozwalaj±cych na dostêp do danych XML
-oraz tworzenie poprawnego wyj¶cia w XML-u z drzewiast± hierarchi±
-elementów. API MiniXML ma implementacje w Perlu i PHP.
+%description -l pl.UTF-8
+XML::Mini to zbiÃ³r klas Perla pozwalajÄ…cych na dostÄ™p do danych XML
+oraz tworzenie poprawnego wyjÅ›cia w XML-u z drzewiastÄ… hierarchiÄ…
+elementÃ³w. API MiniXML ma implementacje w Perlu i PHP.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
