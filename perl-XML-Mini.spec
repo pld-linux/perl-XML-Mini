@@ -4,7 +4,6 @@
 
 %define		pdir	XML
 %define		pnam	Mini
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Mini - Perl implementation of the XML::Mini XML create/parse interface
 Summary(pl.UTF-8):	XML::Mini - implementacja perlowa interfejsu tworzącego/analizującego XML
 Name:		perl-XML-Mini
